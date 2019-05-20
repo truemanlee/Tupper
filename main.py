@@ -32,4 +32,4 @@ def get_img(x_len, y_len, N):
 img = get_img(x_len, y_len, N)
 img = (1 - img) * 255
 plt.imshow(img.T)
-plt.savefig('reconctruct.png', dpi=100)
+plt.savefig('reconstruct.png', dpi=100)
